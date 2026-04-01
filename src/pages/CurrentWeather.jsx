@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { getLocation, fetchWeather } from "../services/api";
-import StatCard from "../components/Statcard";
+import StatCard from "../components/StatCard";
 import ChartBox from "../components/ChartBox";
 import { fetchAirQuality } from "../services/api";
 
