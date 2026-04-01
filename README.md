@@ -1,16 +1,63 @@
-# React + Vite
+# 🌤️ Weatherlytics – Advanced Weather Analytics Platform
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A fully responsive weather analytics dashboard built using ReactJS and Open-Meteo APIs. The application provides real-time weather data, hourly forecasts, air quality insights, and historical trend analysis.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Features
 
-## React Compiler
+### 📍 Current Weather
+- Automatic GPS-based location detection (with fallback support)
+- Displays:
+  - Current, Min, and Max Temperature
+  - Humidity
+  - Wind Speed
+  - Precipitation
+  - Sunrise & Sunset
+  - Air Quality (PM10, PM2.5)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+### 📊 Hourly Forecast (Charts)
+- Interactive visualizations for:
+  - Temperature
+  - Humidity
+  - Wind Speed
+  - Precipitation
+  - Visibility
+  - Air Quality (PM10 & PM2.5)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+### 📅 Historical Weather Analysis
+- Select custom date range (up to 2 years)
+- Visualize trends using charts:
+  - Temperature (Min, Max, Mean)
+  - Precipitation
+  - Wind Speed
+
+---
+
+## 🛠️ Tech Stack
+
+- React.js
+- Tailwind CSS
+- Recharts
+- Axios
+- Open-Meteo API
+
+---
+
+## 🌐 Live Demo
+
+👉 https://weather-dashboard-amber-five.vercel.app
+
+---
+
+## 📦 Installation
+
+```bash
+git clone https://github.com/jagritk30-cpu/weather-dashboard.git
+cd weather-dashboard
+npm install
+npm run dev
